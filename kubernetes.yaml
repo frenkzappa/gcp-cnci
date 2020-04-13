@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gcp-cnci-example-app-production
-        image: gcr.io/cicd-fcamba/gcp-cnci-example-app:3d137e2
+        image: gcr.io/cicd-fcamba/gcp-cnci-example-app:e0752b7
         ports:
         - containerPort: 8080
         env:
